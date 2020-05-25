@@ -9,20 +9,9 @@ before_install:
 dist: trusty
 
 rvm:
-  - 1.8.7
-  - 1.9.2
-  - 1.9.3
-  - 2.0.0
-  - 2.1
-  - 2.2.10
-  - 2.3.8
-  - 2.4.10
-  - 2.5.8
   - 2.6.6
-  - 2.7.1
-  - ree
-  - jruby-19mode
-  - jruby-18mode
+  - truffleruby-head
+  - truffleruby
 env:
   - BRANCH=master
   - BRANCH=2-99-maintenance
